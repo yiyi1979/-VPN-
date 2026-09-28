@@ -4,7 +4,7 @@
 一、服务器选择
 搭建梯子要用到海外服务器（比如香港、日本、韩国、新加坡、美国等服务器） 
 
-如果你先自己搭建梯子比较麻烦，还可以直接购买，推荐一下我在用的梯子，节点多、速度快、稳定。
+如果你嫌自己搭建梯子比较麻烦，还可以直接购买，推荐一下我在用的梯子，节点多、速度快、稳定。
 
 https://github.com/yiyi1979/VPN_Tool_for_2026
 
@@ -32,17 +32,17 @@ bash <(curl -sL https://storage.googleapis.com/tiziblog/setup.sh)
 
 按回车键，将出现如下操作菜单。
 
-如果菜单没出现，CentOS系统请输入
+如果菜单没出现，CentOS系统请输入：
 
 yum install -y curl
 
-Ubuntu/Debian系统请输入
+Ubuntu/Debian系统请输入：
 
 sudo apt install -y curl
 
 然后再次运行上面的命令：
 
-
+![图片](https://github.com/yiyi1979/-VPN-/blob/main/3536fd4d-623c-474e-b69d-a952d8c4db48.png)
 
 目前V2ray一键脚本支持以下功能：
 VMESS，即最普通的V2ray服务器，没有伪装，也不是VLESS
@@ -69,11 +69,11 @@ trojan+XTLS，trojan加强版，使用XTLS技术来提升性能
 
 5. 按照自己的需求选择一个方式。
 例如6，然后回车。接着脚本会让你输入一些信息，也可以直接按回车使用默认值。需要注意的是，对于要输入伪装域名的情况，如果服务器上有网站在运行，请联系运维再执行脚本，否则可能导致原来网站无法访问！
-
+![图片](https://github.com/yiyi1979/-VPN-/blob/main/3210985378.png)
 
 
 6. 脚本接下来会自动运行，一切顺利的话结束后会输出配置信息：
-
+![图片](https://github.com/yiyi1979/-VPN-/blob/main/1184729940.png)
 
 到此服务端配置完毕，服务器可能会自动重启（没提示重启则不需要），windows终端出现“disconnected”，mac出现“closed by remote host”说明服务器成功重启了。
 
