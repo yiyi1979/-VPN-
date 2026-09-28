@@ -29,14 +29,17 @@ V2ray一键脚本功能强大，支持常规VMESS协议、VMESS+websocket+TLS+Ng
 复制（或手动输入）下面命令到终端
 
 bash <(curl -sL https://storage.googleapis.com/tiziblog/setup.sh)
+
 按回车键，将出现如下操作菜单。
 
 如果菜单没出现，CentOS系统请输入
 
 yum install -y curl
+
 Ubuntu/Debian系统请输入
 
 sudo apt install -y curl
+
 然后再次运行上面的命令：
 
 
